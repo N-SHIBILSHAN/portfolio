@@ -11,11 +11,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-change-this')
 
 DEBUG = False  # IMPORTANT for production
 
-ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    '.onrender.com',
-    ]  # Render handles domain
+ALLOWED_HOSTS = ['*']
+ # Render handles domain
 
 # ========================
 # INSTALLED APPS
