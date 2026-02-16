@@ -11,7 +11,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-change-this')
 
 DEBUG = False  # IMPORTANT for production
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['portfolio-4ylp.onrender.com']
+
  # Render handles domain
 
 # ========================
